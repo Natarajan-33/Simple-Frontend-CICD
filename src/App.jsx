@@ -22,7 +22,8 @@ export default function App() {
 
     try {
       // Call the API using environment variable
-      const res = await fetch(`${API_URL}/quote`);
+      const fullUrl = `${API_URL}/quote`;
+      const res = await fetch(fullUrl);
       if (!res.ok) throw new Error('Failed to fetch quote.');
       const data = await res.json();
       setQuote(data.quote);
