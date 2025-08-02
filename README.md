@@ -10,6 +10,31 @@ A modern React application built with Vite, featuring a streamlined CI/CD pipeli
 - **Docker** containerization for consistent deployment
 - **Nginx** serving for production builds
 - **CI/CD** ready setup
+- **Animated Background** with floating particles
+- **Dark/Light Theme Toggle** for better user experience
+- **Favorites System** to save and manage favorite quotes
+- **Quote Counter** to track how many quotes you've fetched
+- **Responsive Design** that works on all devices
+
+## 🎨 App Features
+
+### Interactive Elements
+- **Get Quote Button**: Fetches random quotes from the API
+- **Favorite Button**: Save quotes to your favorites list
+- **Theme Toggle**: Switch between light and dark themes
+- **Quote Counter**: Tracks total quotes fetched
+- **Favorites Counter**: Shows number of saved quotes
+
+### Visual Enhancements
+- **Animated Particles**: Floating background elements for visual appeal
+- **Smooth Transitions**: All interactions have smooth animations
+- **Modern UI**: Clean, modern design with gradient backgrounds
+- **Responsive Layout**: Optimized for desktop, tablet, and mobile
+
+### Data Persistence
+- **Local Storage**: Favorites are saved locally and persist between sessions
+- **Quote History**: View your last 3 favorite quotes
+- **Remove Favorites**: Easy removal of saved quotes
 
 ## 📦 Tech Stack
 
