@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function App() {
   const [quote, setQuote] = useState(
@@ -10,6 +10,11 @@ export default function App() {
   // Get environment variables
   const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
   const APP_TITLE = import.meta.env.VITE_APP_TITLE || 'Random Quote Generator';
+
+  // Set document title dynamically
+  useEffect(() => {
+    document.title = APP_TITLE;
+  }, [APP_TITLE]);
 
   async function fetchQuote() {
     setLoading(true);
